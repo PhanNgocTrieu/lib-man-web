@@ -8,6 +8,8 @@ import {
   Settings,
   Users,
   Menu,
+  Tag,
+  UserPen,
 } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -37,6 +39,20 @@ export default function AdminLayout({
               >
                 <LayoutDashboard className="h-4 w-4" />
                 Dashboard
+              </Link>
+              <Link
+                href="/admin/categories"
+                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary hover:bg-muted"
+              >
+                <Tag className="h-4 w-4" />
+                Categories
+              </Link>
+              <Link
+                href="/admin/authors"
+                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary hover:bg-muted"
+              >
+                <UserPen className="h-4 w-4" />
+                Authors
               </Link>
               <Link
                 href="/admin/books"

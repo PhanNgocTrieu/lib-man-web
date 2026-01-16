@@ -17,10 +17,10 @@ _Dự kiến sử dụng các công nghệ hiện đại nhất:_
 
 ### Giai đoạn 1: Khởi tạo & Cơ sở hạ tầng (Foundation)
 
-- [ ] Thiết lập dự án Next.js, cấu hình Tailwind CSS, Font chữ, Dark/Light mode theme.
-- [ ] Xây dựng Component UI cơ bản (Button, Input, Card, Modal...).
-- [ ] Thiết lập Layout: Layout Admin (Sidebar, Header) và Layout User (Public).
-- [ ] Hệ thống Xác thực: Đăng nhập, Đăng ký, Quên mật khẩu.
+- [x] Thiết lập dự án Next.js, cấu hình Tailwind CSS, Font chữ, Dark/Light mode theme.
+- [x] Xây dựng Component UI cơ bản (Button, Input, Card, Modal...).
+- [x] Thiết lập Layout: Layout Admin (Sidebar, Header) và Layout User (Public).
+- [x] Hệ thống Xác thực: Đăng nhập, Đăng ký, Quên mật khẩu.
 
 ### Giai đoạn 2: Quản lý Tài nguyên (Core Resources)
 
