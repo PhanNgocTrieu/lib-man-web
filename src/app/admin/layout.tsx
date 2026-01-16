@@ -15,6 +15,7 @@ import {
 import { Button } from "@/components/ui/button"
 import { ModeToggle } from "@/components/mode-toggle"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { SidebarNav } from "./components/sidebar-nav"
 
 export default function AdminLayout({
   children,
@@ -32,57 +33,7 @@ export default function AdminLayout({
             </Link>
           </div>
           <div className="flex-1 overflow-auto py-2">
-            <nav className="grid items-start px-4 text-sm font-medium">
-              <Link
-                href="/admin"
-                className="flex items-center gap-3 rounded-lg bg-muted px-3 py-2 text-primary transition-all hover:text-primary"
-              >
-                <LayoutDashboard className="h-4 w-4" />
-                Dashboard
-              </Link>
-              <Link
-                href="/admin/categories"
-                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary hover:bg-muted"
-              >
-                <Tag className="h-4 w-4" />
-                Categories
-              </Link>
-              <Link
-                href="/admin/authors"
-                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary hover:bg-muted"
-              >
-                <UserPen className="h-4 w-4" />
-                Authors
-              </Link>
-              <Link
-                href="/admin/books"
-                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
-              >
-                <Book className="h-4 w-4" />
-                Books
-              </Link>
-              <Link
-                href="/admin/readers"
-                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
-              >
-                <Users className="h-4 w-4" />
-                Readers
-              </Link>
-              <Link
-                href="/admin/reports"
-                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
-              >
-                <BarChart3 className="h-4 w-4" />
-                Reports
-              </Link>
-              <Link
-                href="/admin/settings"
-                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-primary"
-              >
-                <Settings className="h-4 w-4" />
-                Settings
-              </Link>
-            </nav>
+            <SidebarNav />
           </div>
           <div className="mt-auto p-4">
              <Button variant="outline" className="w-full justify-start gap-2">

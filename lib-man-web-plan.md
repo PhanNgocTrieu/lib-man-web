@@ -24,12 +24,12 @@ _Dự kiến sử dụng các công nghệ hiện đại nhất:_
 
 ### Giai đoạn 2: Quản lý Tài nguyên (Core Resources)
 
-- [ ] **Quản lý Danh mục (Categories)**: Phân loại sách, thêm/sửa/xóa.
-- [ ] **Quản lý Sách (Books)**:
+- [x] **Quản lý Danh mục (Categories)**: Phân loại sách, thêm/sửa/xóa.
+- [x] **Quản lý Sách (Books)**:
   - Quản lý thông tin chi tiết: Tên, Tác giả, ISBN, Giá, Số lượng, Vị trí.
   - Upload ảnh bìa sách.
   - Tìm kiếm và Lọc sách nâng cao.
-- [ ] **Quản lý Tác giả (Authors)**: Thông tin tác giả.
+- [x] **Quản lý Tác giả (Authors)**: Thông tin tác giả.
 
 ### Giai đoạn 3: Nghiệp vụ Thư viện (Business Operations)
 
