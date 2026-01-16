@@ -16,6 +16,7 @@ import { Button } from "@/components/ui/button"
 import { ModeToggle } from "@/components/mode-toggle"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { SidebarNav } from "./components/sidebar-nav"
+import { NotificationsDropdown } from "@/components/notifications-dropdown"
 
 export default function AdminLayout({
   children,
@@ -107,7 +108,8 @@ export default function AdminLayout({
             <h1 className="font-semibold text-lg">Dashboard</h1>
           </div>
           <div className="flex items-center gap-4">
-            <div className="h-8 w-8 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center">
+            <NotificationsDropdown />
+             <div className="h-8 w-8 rounded-full bg-slate-200 dark:bg-slate-700 flex items-center justify-center">
                 <span className="text-xs font-bold">AD</span>
              </div>
              <ModeToggle />

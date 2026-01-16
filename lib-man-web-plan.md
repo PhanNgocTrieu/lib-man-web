@@ -43,10 +43,10 @@ _Dự kiến sử dụng các công nghệ hiện đại nhất:_
 
 ### Giai đoạn 4: Quản trị & Báo cáo (Admin & Reporting)
 
-- [ ] **Dashboard Tổng quan**: Thống kê số lượng sách, lượt mượn trong tháng, sách quá hạn.
-- [ ] **Quản lý Nhân viên**: Phân quyền, tạo tài khoản thủ thư.
-- [ ] **Báo cáo (Reports)**: Báo cáo nhập xuất, thống kê sách hot.
-- [ ] **Cấu hình Hệ thống**: Quy định số ngày mượn, số sách tối đa, mức phạt.
+- [x] **Dashboard Tổng quan**: Thống kê số lượng sách, lượt mượn trong tháng, sách quá hạn.
+- [x] **Quản lý Nhân viên**: Phân quyền, tạo tài khoản thủ thư.
+- [x] **Báo cáo (Reports)**: Báo cáo nhập xuất, thống kê sách hot.
+- [x] **Cấu hình Hệ thống**: Quy định số ngày mượn, số sách tối đa, mức phạt.
 
 ### Giai đoạn 5: Tiện ích & Hoàn thiện (Polish & UX)
 
