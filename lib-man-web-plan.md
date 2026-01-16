@@ -33,9 +33,9 @@ _Dự kiến sử dụng các công nghệ hiện đại nhất:_
 
 ### Giai đoạn 3: Nghiệp vụ Thư viện (Business Operations)
 
-- [ ] **Quản lý Độc giả (Readers)**:
+- [x] **Quản lý Độc giả (Readers)**:
   - Hồ sơ độc giả, thẻ thư viện, lịch sử hoạt động.
-- [ ] **Quy trình Mượn - Trả (Circulation)**:
+- [x] **Quy trình Mượn - Trả (Circulation)**:
   - Tạo phiếu mượn sách.
   - Kiểm tra giới hạn sách được mượn.
   - Xử lý trả sách và tính toán phí phạt (nếu có).
