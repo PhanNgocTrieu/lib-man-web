@@ -50,9 +50,9 @@ _Dự kiến sử dụng các công nghệ hiện đại nhất:_
 
 ### Giai đoạn 5: Tiện ích & Hoàn thiện (Polish & UX)
 
-- [ ] **Thông báo (Notifications)**: Email nhắc trả sách, thông báo hệ thống.
-- [ ] **Sao lưu & Bảo mật**: Nhật ký hệ thống (Audit Logs), Backup dữ liệu.
-- [ ] **User Portal**: Trang dành cho độc giả (tra cứu sách, xem lịch sử cá nhân).
+- [x] **Thông báo (Notifications)**: Email nhắc trả sách, thông báo hệ thống.
+- [x] **Sao lưu & Bảo mật**: Nhật ký hệ thống (Audit Logs), Backup dữ liệu.
+- [x] **User Portal**: Trang dành cho độc giả (tra cứu sách, xem lịch sử cá nhân).
 
 ---
 
